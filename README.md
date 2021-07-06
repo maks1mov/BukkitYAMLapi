@@ -13,12 +13,12 @@ Maven:
     
 How to use (example):
 
-		YAML config = new YAML(new File("test.yml"));
+     YAML config = new YAML(new File("test.yml"));
 		
-		config.getYAML().set("Test", "Hello");
-		config.getYAML().set("Test2", true);
-		config.getYAML().set("Test3", 3);
-		config.getYAML().set("Test.test", "hi");
+     config.getYAML().set("Test", "Hello");
+     config.getYAML().set("Test2", true);
+     config.getYAML().set("Test3", 3);
+     config.getYAML().set("Test.test", "hi");
 		
-		config.save();
-		config.reload();
+     config.save();
+     config.reload();
